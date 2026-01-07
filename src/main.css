@@ -1,0 +1,280 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --orange: #ff9900;
+  --blue: #60a5fa;
+  --purple: #c084fc;
+  --red: #ff6633;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.app-main {
+  min-height: calc(100vh - 232px); /* Account for header (100px) + banner (32px) + footer (100px) */
+  overflow-y: auto;
+  padding-bottom: 0;
+}
+
+/* ============================================================================
+    ANCHOR LINK
+   ============================================================================ */
+
+
+.anchor-link:hover {
+  transition: color 1s ease-in-out;
+  color: var(--orange);
+}
+
+
+/* ============================================================================
+    BUTTONS
+   ============================================================================ */
+
+.btn-main {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 999px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: inline-flex;
+    font-size: 1rem;
+  font-weight: 600;
+  justify-content: center;
+  min-width: 160px;
+  max-width: 200px;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  touch-action: manipulation;
+  user-select: none;
+  white-space: nowrap;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-main:active {
+  transform: scale(0.95);
+  transition: all 0.1s ease;
+}
+
+.btn-main:hover {
+  transform: scale(1.05);
+  animation: scale(1.05) 0.5s ease-in-out;
+}
+
+#btn-app:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3), 0 4px 20px var(--purple);
+  border: 1px solid rgba(192, 132, 252, 0.4);
+  color: var(--purple);
+}
+
+#btn-buy:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3), 0 4px 20px var(--orange);
+  border: 1px solid rgba(255, 153, 0, 0.4);
+  color: var(--orange);
+}
+
+#btn-docs:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3), 0 4px 20px var(--blue);
+  border: 1px solid rgba(96, 165, 250, 0.4);
+  color: var(--blue);
+}
+
+/* ============================================================================
+    BANNER
+   ============================================================================ */
+
+.banner-outer {
+  background: linear-gradient(90deg, 
+    var(--orange) 0%, 
+    var(--blue) 25%, 
+    var(--purple) 50%, 
+    var(--red) 75%, 
+    var(--orange) 100%
+  );
+  background-size: 400% 100%;
+  animation: gradientShift 3s ease-in-out infinite;
+  position: relative;
+  z-index: 20;
+}
+
+.banner-inner {
+  position: relative;
+  z-index: 50;
+}
+
+.banner-inner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, 
+    var(--orange) 0%, 
+    var(--blue) 25%, 
+    var(--purple) 50%, 
+    var(--red) 75%, 
+    var(--orange) 100%
+  );
+  background-size: 400% 100%;
+  animation: gradientShift 3s ease-in-out infinite;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
+}
+
+.banner-outer:hover .banner-inner::before {
+  opacity: 1;
+}
+
+.banner-inner div {
+  transition: color 1s ease-in-out;
+  position: relative;
+  z-index: 10;
+}
+
+.banner-outer:hover .banner-inner div {
+  color: black !important;
+}
+
+/* ============================================================================
+   IMAGES
+   ============================================================================ */
+
+.image-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.image-bg::before {
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%); /* Radial gradient overlay like ALEX */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.image-bg-home {
+  background-image: url('/wall-street.png');
+}
+
+/* ============================================================================
+    SECTIONS
+   ============================================================================ */
+
+/* Section hover effects */
+.section {
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 2rem;
+}
+
+.section:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 32px rgba(255, 255, 255, 0.8), 0 4px 16px rgba(255, 255, 255, 0.4);
+}
+
+/* Social media icon hover effect */
+.social-icon:hover {
+  box-shadow: 0 4px 24px 0 var(--orange), 0 2px 8px 0 rgba(255,153,0,0.3);
+}
+
+.social-icon:hover svg {
+  color: var(--orange);
+  fill: var(--orange);
+  transition: color 0.3s, fill 0.3s;
+}
+
+/* X (Twitter) social icon hover effect */
+a[href*="x.com"].social-icon:hover {
+  box-shadow: 0 4px 24px 0 black, 0 2px 8px 0 rgba(0,0,0,0.3);
+}
+
+a[href*="x.com"].social-icon:hover svg {
+  color: black;
+  fill: black;
+}
+
+/* Discord social icon hover effect */
+a[href*="discord.com"].social-icon:hover {
+  box-shadow: 0 4px 24px 0 var(--purple), 0 2px 8px 0 rgba(192,132,252,0.3);
+}
+
+a[href*="discord.com"].social-icon:hover svg {
+  color: var(--purple);
+  fill: var(--purple);
+}
+
+/* ============================================================================
+    TOKENS
+   ============================================================================ */
+
+.text-street {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.text-welsh {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+.text-credit{
+  color: var(--purple);
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  #home-container {
+    margin-top: 1em !important;
+  }
+  #hero-section {
+    margin-top: 5rem;
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 1920px) {
+  #home-container {
+    margin-top: 5% !important;
+  }
+  
+  #hero-section {
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+}
+
+/* Frontend-specific responsive layout */
+@media (min-width: 640px) {
+  .app-main {
+    min-height: calc(100vh - 132px); /* Header + banner on desktop */
+    /* padding-bottom: 0; */
+  }
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Welsh Street - Meme Rewards Built on Bitcoin",
+  "short_name": "Welsh Street",
+  "description": "World's first meme rewards token built to boost the first dog on Bitcoin, $WELSH",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["bitcoin","stacks","blockchain","meme coin","welsh corgi coin","finance", "business"],
+  "lang": "en",
+  "dir": "ltr"
+}
