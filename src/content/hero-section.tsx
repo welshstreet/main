@@ -12,7 +12,7 @@ export default function HeroSection() {
                     </span>
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white/90 max-w-3xl mx-auto leading-relaxed px-2">
-                    $STREET is the first, dedicated liquidity rewards token designed to boost the first dog built on Bitcoin, $WELSH.
+                    $STREET is the first, dedicated liquidity rewards token designed to boost the first dog built on Bitcoin $WELSH.
                 </p>
             </div>
 
