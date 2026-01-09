@@ -24,15 +24,15 @@ export default function TokenomicsSection() {
         </p>
         <p>
         <span className="italic">Liquidity Generation Event "Genesis" - 10%</span><br/>
-        10% is allocated to genesis, the liquidity generation event to kickstart the exchange liquidity pool. The LGE gives early adopters, long time community members, and Welsh holders a chance to be early and help make Welsh Street happen.
+        10% is allocated to genesis, the liquidity generation event to kickstart the exchange liquidity pool. The LGE gives early adopters, long time community members, and Welsh holders a chance to be early and help make $WELSH $STREET happen.
         </p>
         <p>
         <span className="italic">Dev Allocation - 10%</span><br/>
-        10% is set side for the development team. These funds are designed to keep the lights on, pay for hosting, upgrades, security, future development, and other expenses associated with running a decentralized exchange. The devs also have some interesting ideas for Welsh Street in the future...
+        10% is set side for the development team. These funds are designed to keep the lights on, pay for hosting, upgrades, security, future development, and other expenses associated with running a decentralized exchange. The devs also have some interesting ideas for $WELSH $STREET in the future...
         </p>
         <p>
         <span className="italic">Treasury Reserve - 10%</span><br/>
-        10% is set side for the Welsh Street treasury. This could mean community growth initiatives, listings, airdrops, more rewards, meme contests, an NFT collection, marketing, and anything else the community dreams up. The possibilities are endless when the community is in control.
+        10% is set side for the $WELSH $STREET treasury. This could mean community growth initiatives, listings, airdrops, more rewards, meme contests, an NFT collection, marketing, and anything else the community dreams up. The possibilities are endless when the $WELSH community is involved.
         </p>
         <TokenomicsChart />
     </Content>

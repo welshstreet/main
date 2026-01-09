@@ -11,7 +11,7 @@ export default function ExchangeSection() {
         imageAlt="Welsh Corgi in front of a whiteboard presenting the Welsh Street Exchange concept"
         >
         <p>
-            $STREET emissions pumped directly into the rewards pool is such a unique concept we needed to build a custom exchange to make it happen.
+            $STREET emissions minted directly into the rewards pool is such a unique concept we needed to build a custom exchange to make it happen.
         </p>
         <div className="flex flex-col-reverse md:flex-row justify-center items-center my-2 gap-8">
             <div className="w-full md:w-1/2 flex flex-col justify-center md:justify-end gap-4">
@@ -30,13 +30,13 @@ export default function ExchangeSection() {
                 </li>
             </ul>
                 <p>
-                Swap these $STREET rewards for $WELSH, provide more liquidity to get more $CREDIT and earn more $STREET rewards.  It's a flywheel that boosts liquidity and rewards the community for participating.
+                Swap $STREET rewards for $WELSH, provide more liquidity to get more $CREDIT, and earn more $STREET rewards.  Each time you swap $STREET rewards for more $WELSH, it puts buying pressure on $WELSH. It's an economics flywheel that grows liquidity, boosts the value of $WELSH and rewards the community for participating.
                 </p>
                 <p>
-                Every swap charges a small fee that feeds back into the system — half goes to growing a community treasury and half goes to the rewards pool. It's a self-sustaining cycle that rewards participation and grows the project over time.
+                Every swap charges a small fee that feeds back into the system — half goes to growing a treasury reserve and half goes to the rewards pool. It's a self-sustaining cycle that rewards participation and grows the project over time.
                 </p>
                 <p>
-                Welcome to the $WELSH Economy.
+                Welcome to the $WELSH $STREET Economy.
                 </p>
             </div>
             <div className="w-full md:w-1/2 flex justify-center md:justify-start">
