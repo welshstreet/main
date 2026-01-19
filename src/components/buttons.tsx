@@ -14,7 +14,7 @@ export function Buttons() {
                 <a
                     id="btn-app"
                     className="btn-main whitespace-nowrap"
-                    href="https://app.welshstreet.com"
+                    href="https://app.welshtest.net"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
