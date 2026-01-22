@@ -1,13 +1,17 @@
 "use client";
 
 export default function Header() {
-  const handleNavClick = (href: string) => {
+  const handleNavClick = (href: string, external?: boolean) => {
     // Close the menu by unchecking the checkbox
     const checkbox = document.getElementById('mobile-menu-toggle') as HTMLInputElement;
     if (checkbox) checkbox.checked = false;
     
     // Navigate to the link
-    window.location.href = href;
+    if (external) {
+      window.open(href, '_blank', 'noopener,noreferrer');
+    } else {
+      window.location.href = href;
+    }
   };
 
   return (
@@ -67,7 +71,7 @@ export default function Header() {
         </div>
         
         {/* Menu content centered */}
-        <div className="flex flex-col items-center justify-center h-[calc(100vh-80px)] space-y-6 px-4">
+        <div className="flex flex-col items-center justify-center h-[100dvh] space-y-6 px-4" style={{ height: 'calc(100vh - 80px)', minHeight: 'calc(100dvh - 80px)' }}>
           <span
             className="anchor-link text-2xl text-white/80 hover:text-white transition-colors cursor-pointer"
             onClick={() => handleNavClick('/')}
@@ -100,7 +104,7 @@ export default function Header() {
           </span>
           <span
             className="anchor-link text-2xl text-white/80 hover:text-white transition-colors cursor-pointer"
-            onClick={() => handleNavClick('/')}
+            onClick={() => handleNavClick('https://docs.welshstreet.com/docs/terms', true)}
           >
             Terms
           </span>
