@@ -162,6 +162,16 @@ html, body {
   z-index: 1;
 }
 
+/* Fix for mobile devices - disable fixed attachment */
+@media (max-width: 1024px) {
+  .image-bg {
+    background-attachment: scroll;
+    position: absolute;
+    height: 100%;
+    min-height: 100vh;
+  }
+}
+
 .image-bg::before {
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%); /* Radial gradient overlay like ALEX */
   content: '';
