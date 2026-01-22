@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <>
-      {/* Background image - fixed position */}
+      {/* Background image - fixed position with mobile-safe approach */}
       <div className="image-bg image-bg-home"></div>
       {/* Hero Section with overlaid content */}
       <div id="home-container" className="relative z-10 flex flex-col items-center justify-center px-4 py-4 sm:px-8 lg:px-16 xl:px-24 2xl:px-32">

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Banner from "@/components/banner";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import BackToTop from "@/components/back-to-top";
 import StructuredData from "@/components/structured-data";
 
 export const metadata: Metadata = {
@@ -99,6 +100,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <BackToTop />
       </body>
     </html>
   );
