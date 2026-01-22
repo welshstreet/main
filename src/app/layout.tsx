@@ -75,6 +75,14 @@ export const metadata: Metadata = {
     // Add these when you have them
     // google: 'your-google-verification-code',
   },
+  icons: {
+    icon: [
+      { url: "/icon-64x64.png", type: "image/png", sizes: "64x64" },
+      { url: "/icon-192x192.png", type: "image/png", sizes: "192x192" },
+      { url: "/icon-512x512.png", type: "image/png", sizes: "512x512" }
+    ],
+    apple: "/icon-192x192.png"
+  },
   category: 'technology',
 };
 
@@ -87,8 +95,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" type="image/png" sizes="64x64" href="/icon-64x64.png" />
         <StructuredData />
       </head>
       <body className="antialiased">
