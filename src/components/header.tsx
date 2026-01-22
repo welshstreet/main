@@ -104,7 +104,7 @@ export default function Header() {
           </span>
           <span
             className="anchor-link text-2xl text-white/80 hover:text-white transition-colors cursor-pointer"
-            onClick={() => handleNavClick('https://docs.welshstreet.com/docs/terms', true)}
+            onClick={() => handleNavClick('https://docs.welshstreet.com/docs/terms')}
           >
             Terms
           </span>
