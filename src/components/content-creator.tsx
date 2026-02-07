@@ -17,7 +17,6 @@ const formatTokensInText = (text: string) => {
         return `<span class="${className}">${match}</span>`;
     });
     };
-
     const processChildren = (children: React.ReactNode): React.ReactNode => {
     return Children.map(children, (child) => {
         if (typeof child === 'string') {
@@ -25,7 +24,6 @@ const formatTokensInText = (text: string) => {
         }
         if (React.isValidElement(child)) {
             const element = child as ReactElement<any>;
-            // Add automatic paragraph styling to <p> elements
             if (element.type === 'p') {
                 const processedChildren = processChildren(element.props.children);
                 const existingClassName = element.props.className || '';
@@ -34,7 +32,6 @@ const formatTokensInText = (text: string) => {
                     children: processedChildren
                 });
             }
-            // Process other elements normally
             const processedChildren = processChildren(element.props.children);
             return cloneElement(element, {
                 children: processedChildren
