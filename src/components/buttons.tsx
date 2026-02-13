@@ -9,7 +9,7 @@ export function Buttons() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    BUY $WELSH
+                    BUY WELSH
                 </a>
                 <a
                     id="btn-app"

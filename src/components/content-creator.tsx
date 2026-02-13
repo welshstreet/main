@@ -11,9 +11,9 @@ interface ContentSectionProps {
 }
 
 const formatTokensInText = (text: string) => {
-    return text.replace(/(\$WELSH|\$STREET|\$CREDIT)/g, (match) => {
-        const className = match === '$WELSH' ? 'text-welsh' :
-                            match === '$STREET' ? 'text-street' : 'text-credit';
+    return text.replace(/(\WELSH|\STREET|\CREDIT)/g, (match) => {
+        const className = match === 'WELSH' ? 'text-welsh' :
+                            match === 'STREET' ? 'text-street' : 'text-credit';
         return `<span class="${className}">${match}</span>`;
     });
     };

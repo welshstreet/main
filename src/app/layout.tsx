@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     default: "Welsh Street - Meme Rewards Built on Bitcoin",
     template: "%s | Welsh Street"
   },
-  description: "World's first meme rewards token built to boost the first dog on Bitcoin, $WELSH. Swap $STREET tokens to earn $CREDIT rewards in the Welsh ecosystem.",
+  description: "World's first meme rewards token built to boost the first dog on Bitcoin, WELSH. Swap STREET tokens to earn CREDIT rewards in the Welsh ecosystem.",
   keywords: [
     "Welsh Street",
     "WELSH token",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     url: 'https://welshstreet.com',
     siteName: 'Welsh Street',
     title: 'Welsh Street - Meme Rewards Built on Bitcoin',
-    description: 'World\'s first meme rewards token built to boost the first dog on Bitcoin, $WELSH. Join the Welsh ecosystem and earn rewards.',
+    description: 'World\'s first meme rewards token built to boost the first dog on Bitcoin, WELSH. Join the Welsh ecosystem and earn rewards.',
     images: [
       {
         url: '/images/welsh-street-suit.png',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Welsh Street - Meme Rewards Built on Bitcoin',
-    description: 'World\'s first meme rewards token built to boost the first dog on Bitcoin, $WELSH.',
+    description: 'World\'s first meme rewards token built to boost the first dog on Bitcoin, WELSH.',
     site: '@welshstreet',
     creator: '@enjoywithouthey',
     images: ['/images/welsh-street-suit.png'],

@@ -6,7 +6,7 @@ interface TokenomicsItem {
 
 const tokenomicsData: TokenomicsItem[] = [
   {
-    label: "Emission Rewards to $CREDIT holders",
+    label: "Emission Rewards to CREDIT holders",
     percentage: 50,
     color: "bg-orange-400"
   },
@@ -38,7 +38,7 @@ interface TokenomicsProps {
 }
 
 export default function TokenomicsChart({
-  title = "$STREET Smart Tokenomics",
+  title = "STREET Smart Tokenomics",
   className = ""
 }: TokenomicsProps) {
   return (

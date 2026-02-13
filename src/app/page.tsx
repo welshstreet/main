@@ -11,10 +11,10 @@ import { Buttons } from '@/components/buttons';
 
 export const metadata: Metadata = {
   title: 'Welsh Street',
-  description: '$STREET is the world\'s first meme rewards token built to boost the first dog on Bitcoin, $WELSH. Join the Welsh ecosystem and start earning rewards.',
+  description: 'STREET is the world\'s first meme rewards token built to boost the first dog on Bitcoin, WELSH. Join the Welsh ecosystem and start earning rewards.',
   openGraph: {
     title: 'Welsh Street - Meme Rewards Built on Bitcoin',
-    description: '$STREET is the world\'s first meme rewards token to boost the first dog coin built on Bitcoin, $WELSH.',
+    description: 'STREET is the world\'s first meme rewards token to boost the first dog coin built on Bitcoin, WELSH.',
     type: 'website',
     images: [
       {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Welsh Street - Meme Rewards Built on Bitcoin',
-    description: '$STREET is the world\'s first meme rewards token built to boost the first dog on Bitcoin, $WELSH.',
+    description: 'STREET is the world\'s first meme rewards token built to boost the first dog on Bitcoin, WELSH.',
   },
 };
 

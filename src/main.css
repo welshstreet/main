@@ -7,6 +7,7 @@
   --blue: #60a5fa;
   --purple: #c084fc;
   --red: #ff6633;
+  --white: #ffffff;
 }
 
 html, body {
@@ -230,17 +231,17 @@ a[href*="discord.com"].social-icon:hover svg {
    ============================================================================ */
 
 .text-street {
-  color: var(--blue);
+  color: var(--white);
   font-weight: 600;
 }
 
 .text-welsh {
-  color: var(--orange);
+  color: var(--white);
   font-weight: 600;
 }
 
 .text-credit{
-  color: var(--purple);
+  color: var(--white);
   font-weight: 600;
 }
 

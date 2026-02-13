@@ -3,7 +3,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Welsh Street",
-    "description": "World's first meme rewards token built to boost the first dog on Bitcoin, $WELSH",
+    "description": "World's first meme rewards token built to boost the first dog on Bitcoin, WELSH",
     "url": "https://welshstreet.com", // Update with your actual domain
     "logo": "https://welshstreet.com/favicon.ico", // Update with your actual logo
     "sameAs": [
@@ -21,7 +21,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Welsh Street",
-    "description": "World's first meme rewards token built to boost the first dog on Bitcoin, $WELSH",
+    "description": "World's first meme rewards token built to boost the first dog on Bitcoin, WELSH",
     "url": "https://welshstreet.com", // Update with your actual domain
     "potentialAction": {
       "@type": "SearchAction",
