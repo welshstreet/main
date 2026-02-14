@@ -10,42 +10,42 @@ export default function ExchangeSection() {
         imageSrc="/whiteboard.png"
         imageAlt="Welsh Corgi in front of a whiteboard presenting the Welsh Street Exchange concept"
         >
-        <p>
-            The Welsh Street rewards system is such a unique concept it required a custom exchange to make it happen. Economic activity on the Welsh Street Exchange looks something like this:
-        </p>
-        <div className="flex flex-col-reverse md:flex-row justify-center items-center my-2 gap-8">
+            <p>
+            The Welsh Street rewards model introduces a new market dynamic built specifically for WELSH. Economic activity on the exchange follows a simple cycle:
+            </p>
+            <div className="flex flex-col-reverse md:flex-row justify-center items-center my-2 gap-8">
             <div className="w-full md:w-1/2 flex flex-col justify-center md:justify-end gap-4">
-            <ul className="list-disc pl-6 text-base sm:text-lg md:text-xl leading-relaxed space-y-2">
+                <ul className="list-disc pl-6 text-base sm:text-lg md:text-xl leading-relaxed space-y-2">
                 <li>
-                <strong>Swap:</strong> Trade between WELSH and STREET with the custom DEX
+                    <strong>Swap:</strong> Trade between WELSH and STREET on the custom DEX
                 </li>
                 <li>
-                <strong>Provide:</strong> Add liquidity to get CREDIT and claim your fair share of rewards
+                    <strong>Provide:</strong> Add liquidity to receive CREDIT and participate in rewards
                 </li>
                 <li>
-                <strong>Claim:</strong> Withdraw WELSH and STREET rewards anytime. No lock-ups. No need to remove liquidity.
+                    <strong>Claim:</strong> Harvest WELSH and STREET rewards at any time — no lock-ups and no liquidity withdrawal required
                 </li>
                 <li>
-                <strong>Build:</strong> Swap STREET for more WELSH and grow CREDIT positions.
+                    <strong>Build:</strong> Reallocate STREET into WELSH or expand CREDIT positions
                 </li>
-            </ul>
+                </ul>
                 <p>
-                Swap STREET rewards for WELSH, provide more liquidity to get more CREDIT, and earn more STREET rewards.  Every STREET swap puts buy pressure on WELSH. It's an economics flywheel that grows liquidity, boosts the value of WELSH, and rewards the community for participating.
+                STREET emissions introduce recurring participation. As liquidity providers claim and redeploy rewards, ongoing swaps generate trading volume and fee activity within the WELSH / STREET market.
                 </p>
                 <p>
-                This economic engine is better know as Meme Rewards and it powers the new WELSH economy.
+                The interaction between fixed-supply WELSH and emission-based STREET creates a recurring liquidity cycle — the Meme Rewards engine powering the WELSH ecosystem.
                 </p>
             </div>
             <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-            <img
+                <img
                 src="/flowchart.png"
                 alt="Welsh Street Exchange Flowchart"
                 className="max-w-full h-auto rounded-lg shadow-md"
                 style={{ maxWidth: '400px', width: '100%' }}
                 loading="lazy"
-            />
+                />
             </div>
-        </div>
+            </div>
     </Content>
     );
 }

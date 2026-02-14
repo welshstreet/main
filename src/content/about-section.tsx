@@ -11,14 +11,15 @@ export default function AboutSection() {
         imageAlt="Welsh Corgi walking down wall street in a suit and tie"
         >
         <p>
-            Welcome to Welsh Street — a mnemonic twist on <em>Wall Street</em> built for WELSH, the beloved
-            community meme and the first dog coin built on Bitcoin.
+        Welcome to Welsh Street — a nod to <em>Wall Street</em>, rebuilt for WELSH, the first dog coin deployed on Bitcoin through Stacks.
         </p>
+
         <p>
-            Welsh Street represents a new tokenomic model in the crypto space. It's the first dedicated meme rewards system designed to boost a community meme coin WELSH. Users provide WELSH and STREET to a liquidity pool and receive CREDIT, a tradable and transferrable liquidity token. Holding CREDIT entitles users to earn STREET rewards. More liquidity benefits the entire WELSH ecosystem, but STREET rewards are designed specifically for user with <em>Street Credit</em>.
+        Welsh Street introduces a purpose-built meme rewards system. Users provide WELSH and STREET to a liquidity pool and receive CREDIT, a tradable liquidity token representing their share of the market. Holding CREDIT earns STREET rewards and trading fees, activating WELSH within a Bitcoin-native DeFi exchange.
         </p>
+
         <p>
-            Once users earn STREET, they can hold it, create pools on secondary markets, or swap it for more WELSH.  When a user swaps STREET for WELSH, buy pressure increases on WELSH.  The more STREET swapped, the more buy pressure on WELSH.  This market dynamic creates a flywheel effect to power the WELSH economy, all made possible by meme rewards.
+        STREET emissions create continuous market participation. Holders can retain STREET, deploy it in new pools, or exchange it for WELSH within the market. This recurring interaction between fixed-supply WELSH and emission-based STREET forms the economic engine of the Welsh ecosystem — powered by meme rewards.
         </p>
     </Content>
     );

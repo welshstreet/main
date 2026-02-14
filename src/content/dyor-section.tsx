@@ -10,15 +10,17 @@ export default function DyorSection() {
         imageSrc="/boat.png"
         imageAlt="Welsh Corgi driving a yacht and wearing sunglasses"
         >
-        <p>
-            It is important for a quick reminder: Welsh Street is not a TradFi application. WELSH and STREET operate in the wild west of Bitcoin DeFi. Users can lose everything. The crypto market can be unpredictable. Impermanent loss is real. Smart contracts and wallets can have bugs. Your keys; your responsibility.
-        </p>
-        <p>
-            If users want to maximize gains they will need to be strategic about how much liquidity they provide, how long they provide it, and how often they change liquidity positions and by how much.  Even the best strategy can fail before market forces and human behavior take the wheel. No one should invest more than they are willing to lose.
-        </p>
-        <p>
-            Welsh Street is a novel meme rewards system that is designed to be a fun and educational cryptocurrency experience but risk cannot be ignored.  Please read more about the Risk Disclaimers and review the Terms of Service before using the Welsh Street applications or investing in any of its tokens.
-        </p>
+            <p>
+            A quick reminder: Welsh Street is not traditional finance. WELSH and STREET operate within Bitcoin-native DeFi, where markets are volatile and risks are real. Smart contracts can fail. Wallets can be compromised. Impermanent loss exists. Participation always carries the possibility of significant loss.
+            </p>
+
+            <p>
+            Providing liquidity requires thoughtful risk management. Market conditions change quickly, and no strategy guarantees returns. Allocation size, time horizon, and market behavior all influence outcomes. Only participate with capital you are prepared to lose.
+            </p>
+
+            <p>
+            Welsh Street is designed to be an innovative and engaging meme rewards experience, but risk should never be overlooked. Please review the full Risk Disclaimer and Terms of Service before using the Welsh Street Exchange or interacting with any associated tokens.
+            </p>
     </Content>
     );
 }

@@ -12,7 +12,7 @@ export default function HeroSection() {
                     </span>
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white/90 max-w-3xl mx-auto leading-relaxed px-2">
-                    Welsh Street is the world's first dedicated, decentralized exchange offering meme rewards designed to boost the first dog built on Bitcoin, WELSH
+                    Welsh Street is a purpose-built, Bitcoin-native, decentralized exchange powering meme rewards for WELSH.
                 </p>
             </div>
 

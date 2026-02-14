@@ -11,23 +11,32 @@ export default function PitchSection() {
         imageAlt="Welsh Corgi sitting at a laptop in a busy office"
         >
         <p>
-            Traditional meme coins have teams that reserve tokens for liquidity mining and rewards, but WELSH was built differently. WELSH is a community-owned meme coin with 100% of tokens in circulation. There are no teams, no VCs, no DAOs, no more emissions, and no reserve fund for liquidity rewards. This makes WELSH unruggable and truly community-driven. 
+        Most meme coins retain token reserves for liquidity mining and incentives. WELSH was built differently. Its entire supply is in circulation, with no treasury allocation, no ongoing emissions, and no centralized mint authority. The monetary policy is fixed and immutable.
         </p>
+
         <p>
-            Being community-driven has its drawbacks — it's difficult to incentivize liquidity providers. Without more WELSH being minted and entering circulation and no way to change the supply, it's difficult for community coins to grow their own markets. This is what we call the <em>Community Coin Paradox.</em>
+        That structure preserves scarcity — but it also introduces a challenge. Without new token issuance, there is no native incentive mechanism to attract and sustain liquidity providers. This tension between fixed supply and market incentives is what we call the <em>Community Coin Paradox.</em>
         </p>
-        <p>  
-            To grow community coins, it's time to get innovative. This is where Welsh Street comes in.
-        </p>
+
         <p>
-            The solution is to take it to the street. The Welsh Street Exchange introduces a rewards system that helps solve the community coin paradox. The rewards token STREET is emitted directly to a rewards contract. The only users who can claim STREET rewards are WELSH / STREET liquidity providers. 
+        WELSH’s supply cannot change. Welsh Street builds the incentive layer around it.
         </p>
+
         <p>
-            The WELSH / STREET liquidity token is called CREDIT. When users provide liquidity to the WELSH / STREET pool they receive CREDIT. CREDIT entitles users to claim STREET rewards. On Welsh Street liquidity providers are referred to as CREDIT holders. 
+        As the minting of more WELSH is impossible, the exchange introduces a separate rewards asset: STREET. STREET is emitted into a rewards contract and distributed exclusively to WELSH / STREET liquidity providers.
         </p>
+
         <p>
-            CREDIT holders and CREDIT holders only can claim the STREET rewards. No lock-ups, no complicated staking mechanisms, no withdrawing liquidity to claim — just pure emission rewards emitted into the rewards pool every bitcoin block.
+        When users provide liquidity to the WELSH / STREET pool, they receive CREDIT — a transferable liquidity token representing their proportional share of the market. Holding CREDIT entitles users to claim STREET emissions.
+        </p>
+
+        <p>
+        No lock-ups. No staking contracts. No liquidity withdrawal required to claim rewards. STREET emissions accrue to CREDIT holders every Bitcoin block, creating a recurring incentive layer while preserving WELSH’s fixed supply.
         </p>
     </Content>
     );
 }
+
+
+
+
