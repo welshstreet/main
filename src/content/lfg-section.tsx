@@ -11,10 +11,10 @@ export default function LfgSection() {
         imageAlt="Welsh Corgi on the wall street trading floor"
         >
         <p>
-            For those ready to embrace the opportunity of DeFi built on Bitcoin, Welsh Street offers something unique: a dedicated meme-rewards DEX designed to boost WELSH. Whether you're just here for the memes or the rewards, Welsh Street welcomes all who dare to send the first dog built on Bitcoin to the moon. Read the docs, launch the app, connect your wallet, buy WELSH, swap for STREET, get CREDIT and let the WELSH economic flywheel begin. 
+            For those ready to embrace the opportunity of DeFi built on Bitcoin, Welsh Street offers something unique: a dedicated, decentralized exchange offering meme rewards designed to boost a beloved community meme coin, WELSH. Whether someone is here just for the memes or the rewards, Welsh Street welcomes all who dare to send the first dog built on Bitcoin to Wall Street. Read the docs, launch the app, connect your wallet, buy WELSH, swap for STREET, get CREDIT and let the WELSH economic flywheel begin. 
         </p>
         <p>
-        LFG 🚀
+        <em>We Welsh</em>
         </p>
     </Content>
     );

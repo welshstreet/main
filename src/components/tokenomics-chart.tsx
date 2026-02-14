@@ -6,17 +6,17 @@ interface TokenomicsItem {
 
 const tokenomicsData: TokenomicsItem[] = [
   {
-    label: "Emission Rewards to CREDIT holders",
+    label: "Rewards to CREDIT holders",
     percentage: 50,
     color: "bg-orange-400"
   },
   {
-    label: "Initial Burned Liquidity 🔥",
+    label: "Burned Liquidity 🔥",
     percentage: 20,
     color: "bg-purple-400"
   },
   {
-    label: "Liquidity Generation Event (LGE)",
+    label: "Liquidity Generation Event",
     percentage: 10,
     color: "bg-green-400"
   },
@@ -38,7 +38,7 @@ interface TokenomicsProps {
 }
 
 export default function TokenomicsChart({
-  title = "STREET Smart Tokenomics",
+  title = "Street Smart Tokenomics",
   className = ""
 }: TokenomicsProps) {
   return (

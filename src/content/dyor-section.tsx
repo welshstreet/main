@@ -11,13 +11,13 @@ export default function DyorSection() {
         imageAlt="Welsh Corgi driving a yacht and wearing sunglasses"
         >
         <p>
-            You know the drill by now. NFA. DYOR. This isn't TradFi. Welsh Street operates in the wild west of DeFi. You can lose everything. The crypto market can be unpredictable. Impermanent loss is real. Smart contracts and wallets can have bugs. Your keys; your responsibility.
+            It is important for a quick reminder: Welsh Street is not a TradFi application. WELSH and STREET operate in the wild west of Bitcoin DeFi. Users can lose everything. The crypto market can be unpredictable. Impermanent loss is real. Smart contracts and wallets can have bugs. Your keys; your responsibility.
         </p>
         <p>
-            If you want to maximize your gains you'll need to be strategic about how much liquidity you provide, how long you provide it, and how often you change your position.  Even the best strategy can fail before market forces and human behavior take the wheel. Don't invest more than you can risk to lose and please always degen responsibly.
+            If users want to maximize gains they will need to be strategic about how much liquidity they provide, how long they provide it, and how often they change liquidity positions and by how much.  Even the best strategy can fail before market forces and human behavior take the wheel. No one should invest more than they are willing to lose.
         </p>
         <p>
-            We've done our best to layout many of the risks and develop Welsh Street to be a fun, educational, learning experience but risk cannot be ignored.  You can read more about the risk disclaimers in the documentation and terms of service.
+            Welsh Street is a novel meme rewards system that is designed to be a fun and educational cryptocurrency experience but risk cannot be ignored.  Please read more about the Risk Disclaimers and review the Terms of Service before using the Welsh Street applications or investing in any of its tokens.
         </p>
     </Content>
     );
