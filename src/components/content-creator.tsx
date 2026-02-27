@@ -8,6 +8,7 @@ interface ContentSectionProps {
     imageAlt: string;
     children: React.ReactNode;
     className?: string;
+    watermark?: 'left' | 'right';
 }
 
 const formatTokensInText = (text: string) => {
@@ -48,7 +49,8 @@ export default function Content({
     imageSrc,
     imageAlt,
     children,
-    className = ""
+    className = "",
+    watermark
 }: ContentSectionProps) {
     return (
     <div
@@ -66,13 +68,18 @@ export default function Content({
                 )}
                 </h2>
             </div>
-            <div className="w-full px-6 sm:px-8 md:px-12 py-4">
+            <div className="w-full px-6 sm:px-8 md:px-12 py-4 relative">
                 <img
                 src={imageSrc}
                 alt={imageAlt}
                 className="w-full h-auto rounded-xl shadow-lg hover:scale-[1.02] transition-transform duration-300"
                 loading="lazy"
                 />
+                {watermark && (
+                    <div className={`watermark ${watermark}`}>
+                        @welshstreet
+                    </div>
+                )}
             </div>
             <div className="px-6 sm:px-8 md:px-12 pb-8 md:pb-12 pt-4">
                 <div className="space-y-6 text-white/90 text-left">

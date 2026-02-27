@@ -9,6 +9,7 @@ export default function DyorSection() {
         subtitle="Do Your Own Research"
         imageSrc="/boat.png"
         imageAlt="Welsh Corgi driving a yacht and wearing sunglasses"
+        watermark='left'
         >
             <p>
             A quick reminder: Welsh Street is not traditional finance. WELSH and STREET operate within Bitcoin-native DeFi, where markets are volatile and risks are real. Smart contracts can fail. Wallets can be compromised. Impermanent loss exists. Participation always carries the possibility of significant loss.

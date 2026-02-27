@@ -245,6 +245,45 @@ a[href*="discord.com"].social-icon:hover svg {
   font-weight: 600;
 }
 
+/* ============================================================================
+    WATERMARK
+   ============================================================================ */
+
+.watermark {
+  position: absolute;
+  bottom: 1.125rem; /* 8px on mobile */
+  font-size: 0.625rem; /* 10px on mobile */
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 400;
+  pointer-events: none;
+  user-select: none;
+  z-index: 10;
+}
+
+.watermark.left {
+  left: 2rem; /* 8px on mobile */
+}
+
+.watermark.right {
+  right: 2rem; /* 8px on mobile */
+}
+
+/* Larger watermark on tablets and desktop */
+@media (min-width: 640px) {
+  .watermark {
+    bottom: 1.25rem; /* 12px on desktop */
+    font-size: 0.875rem; /* 14px on desktop */
+  }
+  
+  .watermark.left {
+    left: 3.5rem; /* 12px on desktop */
+  }
+  
+  .watermark.right {
+    right: 3.5rem; /* 12px on desktop */
+  }
+}
+
 @media (min-width: 1024px) {
   #home-container {
     margin-top: 1em !important;

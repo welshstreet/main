@@ -6,9 +6,10 @@ export default function ExchangeSection() {
         id="exchange"
         className="section"
         title="The Welsh Street Exchange and"
-        subtitle="The Welsh Economic Flywheel"
+        subtitle="The Meme Rewards System"
         imageSrc="/whiteboard.png"
         imageAlt="Welsh Corgi in front of a whiteboard presenting the Welsh Street Exchange concept"
+        watermark='left'
         >
             <p>
             The Welsh Street rewards model introduces a new market dynamic built specifically for WELSH. Economic activity on the exchange follows a simple cycle:
@@ -23,17 +24,17 @@ export default function ExchangeSection() {
                     <strong>Provide:</strong> Add liquidity to receive CREDIT and participate in rewards
                 </li>
                 <li>
-                    <strong>Claim:</strong> Harvest WELSH and STREET rewards at any time — no lock-ups and no liquidity withdrawal required
+                    <strong>Claim:</strong> Claim WELSH and STREET rewards at any time — no lock-ups and no liquidity withdrawal required
                 </li>
                 <li>
-                    <strong>Build:</strong> Reallocate STREET into WELSH or expand CREDIT positions
+                    <strong>Build:</strong> Reallocate STREET into WELSH or mint additional CREDIT
                 </li>
                 </ul>
                 <p>
                 STREET emissions introduce recurring participation. As liquidity providers claim and redeploy rewards, ongoing swaps generate trading volume and fee activity within the WELSH / STREET market.
                 </p>
                 <p>
-                The interaction between fixed-supply WELSH and emission-based STREET creates a recurring liquidity cycle — the Meme Rewards engine powering the WELSH ecosystem.
+                The interaction between fixed-supply WELSH and emission-based STREET creates a recurring liquidity cycle — the Meme Rewards protocol powering the WELSH ecosystem.
                 </p>
             </div>
             <div className="w-full md:w-1/2 flex justify-center md:justify-start">

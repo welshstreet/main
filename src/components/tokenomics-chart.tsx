@@ -1,33 +1,18 @@
 interface TokenomicsItem {
   label: string;
-  percentage: number;
+  amount: number;
   color: string;
 }
 
 const tokenomicsData: TokenomicsItem[] = [
   {
-    label: "Rewards to CREDIT holders",
-    percentage: 50,
-    color: "bg-orange-400"
-  },
-  {
-    label: "Burned Liquidity 🔥",
-    percentage: 20,
-    color: "bg-purple-400"
-  },
-  {
-    label: "Liquidity Generation Event",
-    percentage: 10,
+    label: "Genesis NFT Event",
+    amount: 3000000000,
     color: "bg-green-400"
   },
   {
-    label: "Dev Allocation",
-    percentage: 10,
-    color: "bg-gray-400"
-  },
-  {
-    label: "Treasury Reserve",
-    percentage: 10,
+    label: "Initial Liquidity",
+    amount: 2000000000,
     color: "bg-blue-400"
   },
 ];
@@ -53,7 +38,7 @@ export default function TokenomicsChart({
                 <span className={`inline-block w-4 h-4 rounded-full ${item.color}`} />
                 <span className="text-white/90">{item.label}</span>
               </div>
-              <span className="text-white font-semibold">{item.percentage}%</span>
+                <span className="text-white font-semibold">{item.amount.toLocaleString('en-US', { maximumFractionDigits: 0 })} STREET</span>
             </div>
           ))}
         </div>

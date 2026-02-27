@@ -9,6 +9,7 @@ export default function PitchSection() {
         subtitle="Dedicated Meme Rewards"
         imageSrc="/laptop.png"
         imageAlt="Welsh Corgi sitting at a laptop in a busy office"
+        watermark='left'
         >
         <p>
         Most meme coins retain token reserves for liquidity mining and incentives. WELSH was built differently. Its entire supply is in circulation, with no treasury allocation, no ongoing emissions, and no centralized mint authority. The monetary policy is fixed and immutable.
@@ -27,11 +28,11 @@ export default function PitchSection() {
         </p>
 
         <p>
-        When users provide liquidity to the WELSH / STREET pool, they receive CREDIT — a transferable liquidity token representing their proportional share of the market. Holding CREDIT entitles users to claim STREET emissions.
+        When users provide liquidity to the WELSH / STREET pool, they receive CREDIT — a transferable liquidity token representing their proportional share of the market. Holding CREDIT enables users to claim STREET emissions.
         </p>
 
         <p>
-        No lock-ups. No staking contracts. No liquidity withdrawal required to claim rewards. STREET emissions accrue to CREDIT holders every Bitcoin block, creating a recurring incentive layer while preserving WELSH’s fixed supply.
+        No lock-ups. No staking contracts. No liquidity withdrawal required to claim rewards. STREET emissions are allocated to CREDIT holders every Bitcoin block, creating a recurring incentive layer while preserving WELSH's fixed supply.
         </p>
     </Content>
     );

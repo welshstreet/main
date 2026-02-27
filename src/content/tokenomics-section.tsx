@@ -10,34 +10,23 @@ export default function TokenomicsSection() {
         subtitle="Street Smart Tokenomics"
         imageSrc="/money.png"
         imageAlt="A Welsh Corgi sitting in a bathtub throwing money in the air"
+        watermark='left'
         >
         <p>
-        Welsh Street tokenomics are designed with community participation as the priority. STREET distribution emphasizes liquidity, long-term alignment, and operational sustainability.
+        Welsh Street tokenomics are designed with community participation as the number one and only priority. The initial STREET distribution emphasizes liquidity, and community distribution. The protocol operates with no treasury, no reserves, no insiders, no revenue extraction, and zero developer allocation. True decentralization, just like WELSH.
         </p>
-
-        <p> 
-        <span className="italic">Emission Rewards - 50%</span><br/>
-        A significant portion of STREET supply is allocated to liquidity emissions. STREET is emitted every Bitcoin block and distributed exclusively to WELSH / STREET liquidity providers. Rewards accrue continuously and can be claimed at any time.
-        </p>
-
-        <p>
-        <span className="italic">Burned Liquidity - 20%</span><br/>
-        A portion of STREET is used to seed initial liquidity. The corresponding CREDIT tokens are gradually removed from circulation, reinforcing long-term alignment between liquidity and community participation.
+        <p>    
+        The initial STREET distribution is split between two key components:
         </p>
 
         <p>
-        <span className="italic">Liquidity Generation Event - Genesis - 10%</span><br/>
+        <span className="italic">Genesis NFT Event - 3,000,000,000 STREET</span><br/>
         Genesis establishes the initial market structure of the exchange. Early participants provide WELSH to pair against newly minted STREET, forming the foundation of the WELSH / STREET liquidity pool.
         </p>
 
         <p>
-        <span className="italic">Development Allocation - 10%</span><br/>
-        A dedicated allocation supports infrastructure, security, hosting, upgrades, and continued development of the Welsh Street Exchange.
-        </p>
-
-        <p>
-        <span className="italic">Treasury Reserve - 10%</span><br/>
-        The treasury allocation is reserved for ecosystem growth initiatives, strategic opportunities, and community-driven expansion of the Welsh Street economy.
+        <span className="italic">Initial Liquidity - 2,000,000,000</span><br/>
+        A portion of STREET is paired with WELSH to seed initial liquidity. The liquidity pool activates at the same time as the Genesis NFT event, ensuring that early participants can immediately provide liquidity and receive rewards. 
         </p>
 
         <TokenomicsChart />
