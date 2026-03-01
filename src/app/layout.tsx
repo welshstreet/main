@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import BackToTop from "@/components/back-to-top";
 import StructuredData from "@/components/structured-data";
+import MaintenanceOverlay from '../components/maintenance-overlay'
 
 export const metadata: Metadata = {
   title: {
@@ -86,6 +87,9 @@ export const metadata: Metadata = {
   category: 'technology',
 };
 
+// Toggle this to enable/disable maintenance mode
+const MAINTENANCE_MODE = true
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -98,6 +102,7 @@ export default function RootLayout({
         <StructuredData />
       </head>
       <body className="antialiased">
+        {MAINTENANCE_MODE && <MaintenanceOverlay />}
         <Banner show={false}>
           Liquidity Generation Event is live!
         </Banner>
