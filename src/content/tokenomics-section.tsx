@@ -8,7 +8,7 @@ export default function TokenomicsSection() {
         className="section"
         title="Not Just Tokenomics"
         subtitle="Street Smart Tokenomics"
-        imageSrc="/money.png"
+        imageSrc="/images/money.png"
         imageAlt="A Welsh Corgi sitting in a bathtub throwing money in the air"
         watermark='left'
         >

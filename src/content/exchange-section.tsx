@@ -7,7 +7,7 @@ export default function ExchangeSection() {
         className="section"
         title="The Welsh Street Exchange and"
         subtitle="The Meme Rewards System"
-        imageSrc="/whiteboard.png"
+        imageSrc="/images/whiteboard.png"
         imageAlt="Welsh Corgi in front of a whiteboard presenting the Welsh Street Exchange concept"
         watermark='left'
         >
@@ -39,7 +39,7 @@ export default function ExchangeSection() {
             </div>
             <div className="w-full md:w-1/2 flex justify-center md:justify-start">
                 <img
-                src="/flowchart.png"
+                src="/images/flowchart.png"
                 alt="Welsh Street Exchange Flowchart"
                 className="max-w-full h-auto rounded-lg shadow-md"
                 style={{ maxWidth: '400px', width: '100%' }}

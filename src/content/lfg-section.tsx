@@ -7,7 +7,7 @@ export default function LfgSection() {
         className="section"
         title="Web2 had Wall Street"
         subtitle="Web3 has Welsh Street"
-        imageSrc="/trading-floor.png"
+        imageSrc="/images/trading-floor.png"
         imageAlt="Welsh Corgi on the wall street trading floor"
         watermark='left'
         >

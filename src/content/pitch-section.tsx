@@ -7,7 +7,7 @@ export default function PitchSection() {
         className="section"
         title="Community Meme Coins deserve"
         subtitle="Dedicated Meme Rewards"
-        imageSrc="/laptop.png"
+        imageSrc="/images/laptop.png"
         imageAlt="Welsh Corgi sitting at a laptop in a busy office"
         watermark='left'
         >

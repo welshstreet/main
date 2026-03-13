@@ -7,7 +7,7 @@ export default function AboutSection() {
         className="section"
         title="Welsh Street"
         subtitle="Decentralized Exchange"
-        imageSrc="/wall-street.png"
+        imageSrc="/images/wall-street.png"
         imageAlt="Welsh Corgi walking down wall street in a suit and tie"
         watermark='right'
         >

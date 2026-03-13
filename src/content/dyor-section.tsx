@@ -7,7 +7,7 @@ export default function DyorSection() {
         className="section"
         title="Not Financial Advice"
         subtitle="Do Your Own Research"
-        imageSrc="/boat.png"
+        imageSrc="/images/boat.png"
         imageAlt="Welsh Corgi driving a yacht and wearing sunglasses"
         watermark='left'
         >
