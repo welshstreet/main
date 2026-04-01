@@ -32,7 +32,9 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="/"
+              href="https://docs.welshstreet.com/docs/terms"
+              target="_blank"
+              rel="noopener noreferrer"
               className="anchor-link flex items-center justify-center w-6 h-6 text-white/80 transition-colors"
               aria-label="Terms and Conditions"
             >
