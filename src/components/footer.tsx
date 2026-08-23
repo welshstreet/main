@@ -7,7 +7,7 @@ export default function Footer() {
           {/* Social icons row */}
           <div className="flex justify-center items-center gap-4 mb-2">
             <a
-              href="https://x.com/"
+              href="https://x.com/welshstreet"
               target="_blank"
               rel="noopener noreferrer"
               className="anchor-link flex items-center justify-center w-6 h-6 text-white/80 transition-colors"
@@ -18,7 +18,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://discord.com/"
+              href="https://discord.gg/5NbMrZc6tq"
               target="_blank"
               rel="noopener noreferrer"
               className="anchor-link flex items-center justify-center w-6 h-6 text-white/80 transition-colors"
