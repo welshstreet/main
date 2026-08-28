@@ -6,7 +6,7 @@ export default function ExchangeSection() {
         id="exchange"
         className="section"
         title="The Welsh Street Exchange and"
-        subtitle="The Meme Rewards System"
+        subtitle="Meme Rewards Protocol"
         imageSrc="/images/whiteboard.png"
         imageAlt="Welsh Corgi in front of a whiteboard presenting the Welsh Street Exchange concept"
         watermark='left'
@@ -31,10 +31,10 @@ export default function ExchangeSection() {
                 </li>
                 </ul>
                 <p>
-                STREET emissions introduce recurring participation. As liquidity providers claim and redeploy rewards, ongoing swaps generate trading volume and fee activity within the WELSH / STREET market.
+                STREET emissions introduce recurring participation. As liquidity providers claim and redeploy rewards, ongoing swaps generate trading volume and fee activity within the WELSH / STREET liquidity market.
                 </p>
                 <p>
-                The interaction between fixed-supply WELSH and emission-based STREET creates a recurring liquidity cycle — the Meme Rewards protocol powering the WELSH ecosystem.
+                The interaction between fixed-supply WELSH and fixed-emission STREET creates a recurring rewards cycle. This is the Meme Rewards Protocol and it powers the WELSH ecosystem.
                 </p>
             </div>
             <div className="w-full md:w-1/2 flex justify-center md:justify-start">
